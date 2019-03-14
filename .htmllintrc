@@ -3,5 +3,6 @@
     "attr-quote-style": "quoted",
     "doctype-first": false,
     "id-class-style": false,
+    "attr-name-style": false,
     "indent-style": "tabs"
 }

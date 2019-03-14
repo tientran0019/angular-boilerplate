@@ -10,22 +10,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
 	selector: 'app-button',
-	template: `
-		<button (click)="onclick.emit($event)">{{ text }}</button>
-	`,
-	styles: [
-		`
-			button {
-				border: 1px solid #eee;
-				border-radius: 3px;
-				background-color: #ffffff;
-				cursor: pointer;
-				font-size: 15px;
-				padding: 3px 10px;
-				margin: 10px;
-			}
-		`,
-	],
+	templateUrl: './button.component.html',
+	styleUrls: ['./button.component.scss'],
 })
 export default class ButtonComponent {
 	@Input()
