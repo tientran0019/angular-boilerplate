@@ -9,7 +9,7 @@
     "build:prod": "ng build --configuration=production",
     "test": "ng test",
     "lint:ts": "ng lint",
-    "lint:styles": "stylelint \"src/**/*.scss\"",
+    "lint:styles": "stylelint \"src/**/*.less\"",
     "lint:html": "htmllint ./src/**/*.html",
     "lint": "yarn lint:ts && yarn lint:html && yarn lint:styles",
     "e2e": "ng e2e",
